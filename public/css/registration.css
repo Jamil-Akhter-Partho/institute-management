@@ -1,0 +1,186 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+
+    background:#edf3f9;
+
+    padding:40px;
+
+}
+
+.register-container{
+
+    width:900px;
+
+    margin:auto;
+
+    background:#fff;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 0 20px rgba(0,0,0,.08);
+
+}
+
+.register-header{
+
+    background:#f5f7fa;
+
+    padding:25px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+.register-header h2{
+
+    color:#183153;
+
+}
+
+form{
+
+    padding:35px;
+
+}
+
+.form-grid{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:25px;
+
+}
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.form-group label{
+
+    margin-bottom:8px;
+
+    font-weight:bold;
+
+    color:#243b55;
+
+}
+
+.form-group span{
+
+    color:red;
+
+}
+
+input,
+select{
+
+    width:100%;
+
+    padding:14px;
+
+    border:1px solid #d7dce5;
+
+    border-radius:8px;
+
+    font-size:15px;
+
+    outline:none;
+
+}
+
+input:focus,
+select:focus{
+
+    border-color:#2d7ef7;
+
+}
+
+.full-width{
+
+    margin-top:25px;
+
+}
+
+.register-btn{
+
+    width:100%;
+
+    margin-top:25px;
+
+    background:#18a340;
+
+    color:#fff;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+}
+
+.register-btn:hover{
+
+    background:#148637;
+
+}
+
+.login-link{
+
+    text-align:center;
+
+    padding:25px;
+
+}
+
+.login-link a{
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+}
+
+small{
+
+    color:red;
+
+    margin-top:5px;
+
+}
+
+@media(max-width:768px){
+
+    .register-container{
+
+        width:100%;
+
+    }
+
+    .form-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

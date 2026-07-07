@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+.container{
+    width:800px;
+    margin:50px auto;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+.card{
+    background:#fff;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    margin-bottom:20px;
+}
+
+.card p{
+    margin-bottom:12px;
+    font-size:16px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 20px;
+    background:#198754;
+    color:#fff;
+    text-decoration:none;
+    border-radius:6px;
+}
