@@ -12,7 +12,7 @@
 <div class="register-container">
 
     <div class="register-header">
-        <h2>👤 এইডা খালি Student এর জন্য</h2>
+        <h2>👤 Only For Students</h2>
     </div>
 
     <form action="{{ route('register.store') }}" method="POST">
@@ -24,7 +24,7 @@
             <!-- District -->
 
             <div class="form-group">
-                <label>কোন জেলায় থাকো? <span>*</span></label>
+                <label>District? <span>*</span></label>
 
                 <select name="district">
 
@@ -51,15 +51,15 @@
 
             <div class="form-group">
 
-                <label>কহন ক্লাস করবা? <span>*</span></label>
+                <label>Which batch do you want to join? <span>*</span></label>
 
                 <select name="shift">
 
                     <option value="">Select Batch</option>
 
-                    <option value="Morning">সকালে</option>
-                    <option value="Evening">সন্ধ্যা</option>
-                    <option value="Night">রাতে আমার সাথে</option>
+                    <option value="Morning">Morning</option>
+                    <option value="Evening">Evening</option>
+                    <option value="Night">Night</option>
 
                 </select>
 
@@ -73,7 +73,7 @@
 
             <div class="form-group">
 
-                <label>কোন গ্রুপ ? <span>*</span></label>
+                <label>Which group? <span>*</span></label>
 
                 <select name="group">
 
@@ -89,7 +89,7 @@
 
             <div class="form-group">
 
-                <label>পুরা নাম কি? <span>*</span></label>
+                <label>Full Name? <span>*</span></label>
 
                 <input
                     type="text"
@@ -107,7 +107,7 @@
 
             <div class="form-group">
 
-                <label>ফোন নাম্বার দেও <span>*</span></label>
+                <label>Phone Number? <span>*</span></label>
 
                 <input
                     type="text"
@@ -125,7 +125,7 @@
 
             <div class="form-group">
 
-                <label>ইমেইল দেও <span>*</span></label>
+                <label>Email? <span>*</span></label>
 
                 <input
                     type="email"
@@ -145,7 +145,7 @@
 
         <div class="form-group full-width">
 
-            <label>পাসওয়ার্ড দেও <span>*</span></label>
+            <label>Password? <span>*</span></label>
 
             <input
                 type="password"
@@ -160,7 +160,7 @@
 
         <div class="form-group full-width">
 
-            <label>আবার দেও <span>*</span></label>
+            <label>Confirm Password? <span>*</span></label>
 
             <input
                 type="password"
@@ -171,7 +171,7 @@
 
         <button class="register-btn">
 
-           রেজিস্টার করো
+            Register
 
         </button>
 
@@ -179,11 +179,11 @@
 
     <div class="login-link">
 
-       একাউন্ট থাকলি লগইন কর?
+        <p>Already have an account?</p>
 
         <a href="{{ route('login') }}">
 
-            লগইন হেনে
+            Login Here
 
         </a>
 

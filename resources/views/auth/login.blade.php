@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>জাহিদ ভাই এর প্রজেক্ট | Login</title>
+    <title>Student Management | Login</title>
 
     <link rel="stylesheet" href="{{ asset('css/login.css') }}">
 </head>
@@ -11,7 +11,7 @@
 
 <div class="login-container">
 
-    <h2>এইখানে লগইন করা লাগবি</h2>
+    <h2>Student Management | Login</h2>
 
     <form action="{{ route('login.submit') }}" method="POST">
 
@@ -51,10 +51,10 @@
     </form>
 
     <p>
-        একাউন্ট নাই?
+        Don't have an account?
 
         <a href="{{ route('register') }}">
-            রেজিস্টার করো
+            Register
         </a>
 
     </p>
