@@ -40,6 +40,7 @@ class AuthController extends Controller
             'district' => $request->district,
             'shift' => $request->shift,
             'role' => 'student',
+            'status' => 'Pending',
             'password' => Hash::make($request->password),
             ]);
 

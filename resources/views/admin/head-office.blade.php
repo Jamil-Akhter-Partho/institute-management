@@ -3,54 +3,48 @@
 @section('content')
 
 <h2 class="page-title">
-    হেড অফিসের ড্যাশবোর্ড
+    Head Office Dashboard
 </h2>
 
 <div class="card-grid">
 
+    <!-- Course -->
     <div class="dashboard-card">
 
-    <h3>Course</h3>
+        <h3>Course</h3>
 
-    <a href="{{ route('course.create') }}">
-    <button>Add</button>
-    </a>
+        <a href="{{ route('course.create') }}">
+            <button>Add Course</button>
+        </a>
 
-    <a href="{{ route('course.index') }}">
-    <button>View</button>
-    </a>
+        <br><br>
+
+        <a href="{{ route('course.index') }}">
+            <button>Manage Courses</button>
+        </a>
 
     </div>
+
+    <!-- Students -->
     <div class="dashboard-card">
-        <h3>Course Category</h3>
 
-        <button>Add</button>
+        <h3>Students</h3>
 
-        <button>View</button>
+        <a href="{{ route('admin.students') }}">
+            <button>Manage Students</button>
+        </a>
+
     </div>
 
+    <!-- Branch -->
     <div class="dashboard-card">
+
         <h3>Branch</h3>
 
-        <button>Add</button>
+        <a href="{{ route('admin.branch') }}">
+            <button>View Branch</button>
+        </a>
 
-        <button>View</button>
-    </div>
-
-    <div class="dashboard-card">
-        <h3>Group</h3>
-
-        <button>Add</button>
-
-        <button>View</button>
-    </div>
-
-    <div class="dashboard-card">
-        <h3>Batch</h3>
-
-        <button>Add</button>
-
-        <button>View</button>
     </div>
 
 </div>

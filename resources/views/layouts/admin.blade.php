@@ -26,15 +26,15 @@
             </li>
 
             <li>
-                <a href="#">
-                    🏢 Branch
-                </a>
+                <a href="{{ route('admin.branch') }}">
+                🏢 Branch
+            </a>
             </li>
 
             <li>
-                <a href="#">
-                    👨‍🎓 Students
-                </a>
+            <a href="{{ route('admin.students') }}">
+            👨‍🎓 Students
+            </a>
             </li>
 
         </ul>
