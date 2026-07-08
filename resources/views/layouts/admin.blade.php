@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Institute Management</title>
+    <title>জাহিদ ভাই এর প্রোজেক্ট</title>
 
     <link rel="stylesheet" href="{{ asset('css/admin.css') }}">
 </head>
@@ -57,7 +57,7 @@
 
         <div class="topbar">
 
-            <h2>Institute Management System</h2>
+            <h2>জাহিদ খান ভাই এর প্রজেক্ট</h2>
 
             <p>Welcome, {{ auth()->user()->name }}</p>
 
